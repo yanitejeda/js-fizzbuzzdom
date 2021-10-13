@@ -1,9 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
+
 main{
     background-color: #083B4C;
 }
@@ -19,21 +14,5 @@ h1{
 
 }
 
-.rettangoli{
-    width: calc(100% / 7);
-    padding: 10px 0;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 
-.box{
-    width: 120px;
-    height: 120px;
-    background-color: aquamarine;
-    margin: 0 auto;
-}

@@ -2,9 +2,7 @@
 const tittle = document.querySelector('h1');
 tittle.style.textAlign = 'center';
 
-
-const boxNumber = document.querySelector('.box');
-//creare serie di numeri
+const scacchieraContainer = document.getElementById('container_scacchiera');
 
 
 
@@ -12,18 +10,17 @@ const boxNumber = document.querySelector('.box');
 
 
 
-for (let y = 1 ; y <=10; y++){
+for (let i = 1; i <= 10; i++){
 
-console.log('tabella del', y);
-boxNumber.innerHTML += y ;
+    console.log('tabellina del', i);
+    scacchieraContainer.innerHTML += `<div class='col'>
+                                    <h4>${i}</h4>
+                                        </div>`;
 }
 
-/*
 
-for (let i = 1; i<=10 ; i++){
-    console.log('tabella del', i );
-    for(let x = 1 ; x < 15 ; x++){
-        console.log(`${i} * ${x} = ` , i++);
-    }
-}
-*/
+
+
+
+
+
