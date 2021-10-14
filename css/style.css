@@ -14,5 +14,33 @@ h1{
 
 }
 
+.my-col{
+    flex: 0 0 calc(100% / 7)
+}
+
+.box{
+    width: 120px;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 120px;
+    height: 120px;
+    background-color: #1287B0;
+}
+
+
+.x3-5{
+    background-color: #F0466F;
+
+}
+
+.x5{
+    background-color: #FFD166;
+
+}
+
+.x3{
+    background-color: #0BD6A1;
+}
+
 
 
